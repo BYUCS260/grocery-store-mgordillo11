@@ -22,6 +22,18 @@
       </div>
     </div>
     <router-view />
+
+    <div class="github-container">
+      <ul class="social-links">
+        <li>
+          <a
+            href="https://github.com/BYUCS260/grocery-store-mgordillo11"
+            target="blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -88,5 +100,19 @@ body {
 
 .browse {
   margin-right: 50px;
+}
+
+.github-container {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+
+.fab {
+  color: black;
+}
+
+.github-container li {
+  list-style: none;
 }
 </style>
